@@ -1,2 +1,3 @@
-# Buddy
-my flutter project
+# flutter_app
+
+A new Flutter project.
