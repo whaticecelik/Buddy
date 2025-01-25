@@ -1,0 +1,2 @@
+# Buddy
+my flutter project
