@@ -33,11 +33,11 @@ final lightTheme = ThemeData(
     bodyMedium: GoogleFonts.roboto(),
     bodyLarge: GoogleFonts.lato(),// club text title
     labelSmall: GoogleFonts.roboto(),
-    labelMedium: GoogleFonts.roboto(),
+    labelMedium: GoogleFonts.lato(),
     labelLarge: GoogleFonts.roboto(),
     titleSmall: GoogleFonts.roboto(),
-    titleMedium: GoogleFonts.roboto(), 
-    titleLarge: GoogleFonts.roboto(), // clubların title ı 
+    titleMedium: GoogleFonts.lato(), 
+    titleLarge: GoogleFonts.lato(),  // clubların title ı
     headlineSmall: GoogleFonts.novaMono(), // appbar buddy text
     headlineMedium: GoogleFonts.aBeeZee(), // club member sayısı
     headlineLarge: GoogleFonts.aBeeZee(),
@@ -69,11 +69,11 @@ final darkTheme = ThemeData(
     bodyMedium: GoogleFonts.roboto(),
     bodyLarge: GoogleFonts.lato(),// club text title
     labelSmall: GoogleFonts.roboto(),
-    labelMedium: GoogleFonts.roboto(),
+    labelMedium: GoogleFonts.lato(),
     labelLarge: GoogleFonts.roboto(),
     titleSmall: GoogleFonts.roboto(),
-    titleMedium: GoogleFonts.roboto(), 
-    titleLarge: GoogleFonts.roboto(), // clubların title ı 
+    titleMedium: GoogleFonts.lato(),
+    titleLarge: GoogleFonts.lato(),  // clubların title ı
     headlineSmall: GoogleFonts.novaMono(), // appbar buddy text
     headlineMedium: GoogleFonts.aBeeZee(), // club member sayısı
     headlineLarge: GoogleFonts.aBeeZee(),

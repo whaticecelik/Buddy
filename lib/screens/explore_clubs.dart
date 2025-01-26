@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/core/constants.dart';
 import 'package:flutter_app/core/themes.dart';
 import 'package:flutter_app/widgets/action_cards.dart';
 import 'package:flutter_app/widgets/bottom_menu.dart';
@@ -8,10 +7,10 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 void main(){
-  runApp(const HomeScreen());
+  runApp(const ExploreScreen());
 }
-class HomeScreen extends StatelessWidget{
-  const HomeScreen({super.key});
+class ExploreScreen extends StatelessWidget{
+  const ExploreScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -70,11 +69,10 @@ class HomeScreen extends StatelessWidget{
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                // filledButtonu Q-Flutter profile_screen den aldım
           FilledButton.icon(
             onPressed: () => context.go("/home"),
-            icon: Icon(Icons.star),
-            label: Text("MY CLUBS"),
+            icon: Icon(Icons.star, color: Theme.of(context).colorScheme.onSurface,),
+            label: Text("MY CLUBS", style: TextStyle(color: Theme.of(context).colorScheme.onSurface),),
             style: FilledButton.styleFrom(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
@@ -83,8 +81,8 @@ class HomeScreen extends StatelessWidget{
           ),
           FilledButton.icon(
             onPressed: () => context.go("/explore"),
-            icon: Icon(Icons.search, color: Theme.of(context).colorScheme.onSurface,),
-            label: Text("EXPLORE CLUBS", style: TextStyle(color: Theme.of(context).colorScheme.onSurface),),
+            icon: Icon(Icons.search),
+            label: Text("EXPLORE CLUBS"),
             style: FilledButton.styleFrom(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
@@ -105,21 +103,15 @@ class HomeScreen extends StatelessWidget{
                   padding: EdgeInsets.all(24),
                   children: [
                     SuggestedActionCard(
-                      image: Image.asset("assets/images/a1.jpg"),
-                      title: "Friendly Zone",
-                      subtitle: "1423 members",
+                      image: Image.asset("assets/images/a4.jpg"),
+                      title: "English Forum",
+                      subtitle: "3321 members",
                       onTap: () {}, //=> context.push("/chat"),
                     ),
                     SuggestedActionCard(
-                      image: Image.asset("assets/images/a2.jpg"),
-                      title: "Speak English Fluently",
-                      subtitle: "3912 members",
-                      onTap: () {}, //=> context.push("/chat"),
-                    ),
-                    SuggestedActionCard(
-                      image: Image.asset("assets/images/a3.jpg"),
-                      title: "Unity",
-                      subtitle: "5576 members",
+                      image: Image.asset("assets/images/a5.jpg"),
+                      title: "Time to learn Russian!",
+                      subtitle: "598 members",
                       onTap: () {}, //=> context.push("/chat"),
                     ),
                   ],

@@ -37,14 +37,8 @@ class CallScreen extends StatelessWidget{
               
               ListTile(
                 leading: Icon(CupertinoIcons.person),
-                title: Text('Profil'),
+                title: Text('Profile'),
                 onTap: () => context.push("/profile"),
-              ),
-              ListTile(
-                leading: Icon(Icons.search),
-                title: const Text("Explore"),
-                onTap: (){
-                },
               ),
               ListTile(
                 leading: Icon(Icons.access_time),
