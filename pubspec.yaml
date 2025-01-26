@@ -8,10 +8,14 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.8
+  dotlottie_loader: ^0.0.4
   flutter:
     sdk: flutter
   flutter_secure_storage: ^9.2.4
   go_router: ^14.7.1
+  google_fonts: ^6.2.1
+  lottie: ^3.3.0
+  provider: ^6.1.2
   shared_preferences: ^2.4.0
 
 dev_dependencies:
@@ -27,4 +31,3 @@ flutter:
   - assets/icons/
   - assets/languages/
   - assets/motions/
-
