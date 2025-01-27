@@ -5,6 +5,7 @@ import 'package:flutter_app/screens/loading_screen.dart';
 import 'package:flutter_app/screens/msg_screen.dart';
 import 'package:flutter_app/screens/notify_screen.dart';
 import 'package:flutter_app/screens/profile_screen.dart';
+import 'package:flutter_app/screens/settings_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final router = GoRouter(
@@ -38,6 +39,10 @@ final router = GoRouter(
     GoRoute(
       path: '/explore' ,
       builder: (context, state) => const ExploreScreen(),
+    ),
+    GoRoute(
+      path: '/settings' ,
+      builder: (context, state) => const SettingsScreen(),
     ),
   ],
 );

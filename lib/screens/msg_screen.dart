@@ -50,7 +50,7 @@ class MsgScreen extends StatelessWidget{
               ListTile(
                 leading: Icon(CupertinoIcons.settings),
                 title: Text('Settings'),
-                onTap: () {},
+                onTap: () => context.push("/settings"),
               ),
               Spacer(),
               Divider(),

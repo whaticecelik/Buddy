@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget{
             ListTile(
               leading: Icon(CupertinoIcons.settings),
               title: Text('Settings'),
-              onTap: () {},
+              onTap: () => context.push("/settings"),
             ),
             Spacer(),
             Divider(),
@@ -93,8 +93,11 @@ class HomeScreen extends StatelessWidget{
           ),
 
               ],
+              
             ),
+            
             Expanded(
+              
               flex: 3,
               child: Container(
                 decoration: BoxDecoration(
