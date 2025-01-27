@@ -62,8 +62,8 @@ class ExploreScreen extends StatelessWidget{
       ),
       
       body: SafeArea(
+        
         child: Column(
-          
           children: [
             SizedBox(height: 20,),
             Row(

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/core/constants.dart';
 import 'package:flutter_app/core/themes.dart';
 import 'package:flutter_app/widgets/bottom_menu.dart';
 import 'package:go_router/go_router.dart';
@@ -60,6 +59,28 @@ class ProfileScreen extends StatelessWidget{
               ),
             ],
           ),
+        ),
+
+        body: ListView(
+          children: [
+            Card(
+              margin: EdgeInsets.only(top: 40),
+              elevation: 0,
+              child: SizedBox(
+                height: 300,
+                width: 300,
+                child: CircleAvatar(
+                  radius: 40,
+                child: CircleAvatar(
+                  backgroundImage: AssetImage("assets/images/cat.jpg"), 
+                  radius: 200,
+                ) ,
+              ),
+              ),
+            ),
+          ],
+          //followers vs yi buraya eklicem
+
         ),
 
        
