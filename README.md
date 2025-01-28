@@ -40,16 +40,52 @@ DevTools (sürüm 2.40.2)
 
 VS Code (sürüm 1.94.4)
 
-## Kurulum Adımları
-Projeyi bilgisayarınıza indirin:
+
+### Kurulum Adımları
+
+1. Projeyi bilgisayarınıza indirin:
+
+```bash
+
 git  clone [proje-adresi]
-Proje klasörüne gidin:
+
+```
+
+  
+
+2. Proje klasörüne gidin:
+
+```bash
+
 cd [proje-adı]
-Gerekli paketleri yükleyin:
+
+```
+
+  
+
+3. Gerekli paketleri yükleyin:
+
+```bash
+
 flutter  pub  get
-Uygulamayı başlatın:
+
+```
+
+  
+
+4. Uygulamayı başlatın:
+
+```bash
+
 flutter  run
-Proje Yapısı
+
+```
+
+  
+
+## Proje Yapısı
+
+```
 
 lib/
 
@@ -62,6 +98,8 @@ lib/
 ├── servisler/ # API servisleri
 
 └── yardımcılar/ # Yardımcı fonksiyonlar
+
+```
 
 ## Ekran Görüntüleri
 [Uygulama ekran görüntüleri buraya eklenecek]
