@@ -87,7 +87,7 @@ class ProfileScreen extends StatelessWidget{
               child: Column(
                 children: [
                   SizedBox(height: 20,),
-                  Text("Kitty" , style: Theme.of(context).textTheme.headlineMedium),
+                  Text("Hatice" , style: Theme.of(context).textTheme.headlineMedium),
                   SizedBox(height: 10,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
