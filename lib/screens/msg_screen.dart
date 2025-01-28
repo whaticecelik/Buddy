@@ -42,6 +42,11 @@ class MsgScreen extends StatelessWidget{
                 onTap: () => context.push("/profile"),
               ),
               ListTile(
+                leading: Icon(Icons.search),
+                title: Text('Search'),
+                onTap: (){},
+              ),
+              ListTile(
                 leading: Icon(Icons.access_time),
                 title: const Text("Recents"),
                 onTap: (){
