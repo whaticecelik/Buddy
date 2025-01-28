@@ -31,7 +31,8 @@ final lightTheme = ThemeData(
         // fontSize: 32,
         ),
     bodyMedium: GoogleFonts.roboto(),
-    bodyLarge: GoogleFonts.lato(),// club text title
+    bodyLarge: GoogleFonts.lato(
+    ),// member sayısı
     labelSmall: GoogleFonts.roboto(),
     labelMedium: GoogleFonts.lato(),
     labelLarge: GoogleFonts.roboto(),
@@ -39,7 +40,7 @@ final lightTheme = ThemeData(
     titleMedium: GoogleFonts.lato(), 
     titleLarge: GoogleFonts.lato(),  // clubların title ı
     headlineSmall: GoogleFonts.novaMono(), // appbar buddy text
-    headlineMedium: GoogleFonts.aBeeZee(), // club member sayısı
+    headlineMedium: GoogleFonts.lato(), // club member sayısı
     headlineLarge: GoogleFonts.aBeeZee(),
     displaySmall: GoogleFonts.novaMono(),
     displayMedium: GoogleFonts.abrilFatface(),
@@ -67,17 +68,18 @@ final darkTheme = ThemeData(
         // fontSize: 32,
         ),
     bodyMedium: GoogleFonts.roboto(),
-    bodyLarge: GoogleFonts.lato(),// club text title
+    bodyLarge: GoogleFonts.lato(
+    ),// member sayısı
     labelSmall: GoogleFonts.roboto(),
     labelMedium: GoogleFonts.lato(),
     labelLarge: GoogleFonts.roboto(),
     titleSmall: GoogleFonts.roboto(),
     titleMedium: GoogleFonts.lato(),
-    titleLarge: GoogleFonts.lato(),  // clubların title ı
+    titleLarge: GoogleFonts.lato(),  // clubların title ı, user name i
     headlineSmall: GoogleFonts.novaMono(), // appbar buddy text
-    headlineMedium: GoogleFonts.aBeeZee(), // club member sayısı
+    headlineMedium: GoogleFonts.lato(), // profildeki takipçi vs 
     headlineLarge: GoogleFonts.aBeeZee(),
-    displaySmall: GoogleFonts.novaMono(),
+    displaySmall: GoogleFonts.lato(),
     displayMedium: GoogleFonts.abrilFatface(),
     displayLarge: GoogleFonts.novaMono( // loading screen title's 
       fontSize: 80

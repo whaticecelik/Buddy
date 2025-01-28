@@ -83,10 +83,58 @@ class ProfileScreen extends StatelessWidget{
               ),
               ),
             ),
-          ],
-          //followers vs yi buraya eklicem
+            Center(
+              child: Column(
+                children: [
+                  SizedBox(height: 20,),
+                  Text("Kitty" , style: Theme.of(context).textTheme.headlineMedium),
+                  SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.star),
+                      Icon(Icons.star),
+                      Icon(Icons.star),
+                      Icon(Icons.star),
+                      Icon(Icons.star_half),
+                      SizedBox(width: 3,),
+                      Text("4.5")
 
+                    ]
+                    ),
+                ],
+              ),
+            ),
+            Padding(
+              
+              padding: EdgeInsets.all(50),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Column(
+                    children: [
+                      Text("Fav Clubs", style: Theme.of(context).textTheme.bodyLarge),
+                      Text("3")
+                    ]
+                  ),
+                  Column(
+                    children: [
+                  Text("Followers", style: Theme.of(context).textTheme.bodyLarge),
+                      Text("56")
+                    ]
+                  ),
+                  Column(
+                    children: [
+                  Text("Following", style: Theme.of(context).textTheme.bodyLarge),
+                      Text("45")
+                    ]
+                  ),
+                ],
+              )
+            ),
+          ],
         ),
+        
 
        
        
