@@ -1,4 +1,5 @@
 import 'package:flutter_app/screens/call_screen.dart';
+import 'package:flutter_app/screens/club_screen.dart';
 import 'package:flutter_app/screens/explore_clubs.dart';
 import 'package:flutter_app/screens/home_screen.dart';
 import 'package:flutter_app/screens/loading_screen.dart';
@@ -43,6 +44,10 @@ final router = GoRouter(
     GoRoute(
       path: '/settings' ,
       builder: (context, state) => const SettingsScreen(),
+    ),
+    GoRoute(
+      path: '/club' ,
+      builder: (context, state) => const ClubScreen(),
     ),
   ],
 );
