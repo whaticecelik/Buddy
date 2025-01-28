@@ -92,6 +92,17 @@ class ProfileScreen extends StatelessWidget{
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      Icon(Icons.location_pin),
+                      Text("Turkiye", style: Theme.of(context).textTheme.bodyLarge,)
+
+                    ],
+                  ),
+                  SizedBox(height: 6),
+                  Text("(Speaks Turkish, English, Russian)", style: Theme.of(context).textTheme.bodySmall),
+                  SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
                       Icon(Icons.star),
                       Icon(Icons.star),
                       Icon(Icons.star),
