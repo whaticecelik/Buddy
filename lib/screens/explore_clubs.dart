@@ -121,7 +121,7 @@ class ExploreScreen extends StatelessWidget{
                     ),
                     SuggestedActionCard(
                       image: Image.asset("assets/images/a3.jpg"),
-                      title: "Arrakis",
+                      title: "Spanish Club",
                       subtitle: "1423 members",
                       onTap: () => context.push("/club"),
                     ),
@@ -133,7 +133,7 @@ class ExploreScreen extends StatelessWidget{
                     ),
                     SuggestedActionCard(
                       image: Image.asset("assets/images/a3.jpg"),
-                      title: "Astroworld",
+                      title: "Lille France",
                       subtitle: "203 members",
                       onTap: () => context.push("/club"),
                     ),
@@ -142,12 +142,6 @@ class ExploreScreen extends StatelessWidget{
                       title: "English Time",
                       subtitle: "912 members",
                       onTap:  () => context.push("/club"),
-                    ),
-                    SuggestedActionCard(
-                      image: Image.asset("assets/images/a3.jpg"),
-                      title: "Learn Spanish",
-                      subtitle: "988 members",
-                      onTap: () => context.push("/club"),
                     ),
                     Center(
                       child: ElevatedButton(
