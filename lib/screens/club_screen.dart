@@ -18,6 +18,10 @@ class ClubScreen extends StatelessWidget{
       appBar: AppBar(
           title: Text("Buddy",style: Theme.of(context).textTheme.headlineSmall),
         centerTitle: true,
+        leading: IconButton(
+          icon:Icon(Icons.arrow_back),
+          onPressed: ()=> context.pop(),
+        ),
         actions: [
           IconButton(
             icon: Icon(CupertinoIcons.app),
@@ -28,45 +32,6 @@ class ClubScreen extends StatelessWidget{
         ],
       ),
 
-       
-      drawer: Drawer(
-          child: Column(
-            children: [
-              Container(
-                height: 50,
-              ),
-              
-              ListTile(
-                leading: Icon(CupertinoIcons.person),
-                title: Text('Profile'),
-                onTap: () => context.push("/profile"),
-              ),
-              ListTile(
-                leading: Icon(Icons.search),
-                title: Text('Search'),
-                onTap: (){},
-              ),
-              ListTile(
-                leading: Icon(Icons.access_time),
-                title: const Text("Recents"),
-                onTap: (){
-              },
-              ),
-              ListTile(
-                leading: Icon(CupertinoIcons.settings),
-                title: Text('Settings'),
-                onTap: () => context.push("/settings"),
-              ),
-              Spacer(),
-              Divider(),
-              ListTile(
-                leading: Icon(Icons.logout),
-                title: Text('Log out'),
-                onTap: () {},
-              ),
-            ],
-          ),
-        ),
       body: Stack(
           children: [
             Positioned(
