@@ -102,6 +102,7 @@ lib/
 ```
 
 ## Ekran Görüntüleri
+![Buddy](assets/images/Buddy-demo video.mp4)
 [Uygulama ekran görüntüleri buraya eklenecek]
 
 ## Projeye Katkı Sağlama
