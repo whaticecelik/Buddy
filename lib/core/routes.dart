@@ -10,7 +10,6 @@ import 'package:flutter_app/screens/msg_screen.dart';
 import 'package:flutter_app/screens/notify_screen.dart';
 import 'package:flutter_app/screens/profile_screen.dart';
 import 'package:flutter_app/screens/register_screen.dart';
-import 'package:flutter_app/screens/search_screen.dart';
 import 'package:flutter_app/screens/settings_screen.dart';
 import 'package:go_router/go_router.dart';
 
