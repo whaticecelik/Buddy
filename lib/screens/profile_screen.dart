@@ -122,23 +122,32 @@ class ProfileScreen extends StatelessWidget{
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Column(
-                    children: [
-                      Text("Fav Clubs", style: Theme.of(context).textTheme.bodyLarge),
-                      Text("3")
-                    ]
+                  InkWell(
+                    onTap: (){},
+                    child: Column(
+                      children: [
+                        Text("Fav Clubs", style: Theme.of(context).textTheme.bodyLarge),
+                        Text("3")
+                      ]
+                    ),
                   ),
-                  Column(
-                    children: [
-                  Text("Followers", style: Theme.of(context).textTheme.bodyLarge),
-                      Text("56")
-                    ]
+                  InkWell(
+                    onTap: (){},
+                    child: Column(
+                      children: [
+                    Text("Followers", style: Theme.of(context).textTheme.bodyLarge),
+                        Text("56")
+                      ]
+                    ),
                   ),
-                  Column(
-                    children: [
-                  Text("Following", style: Theme.of(context).textTheme.bodyLarge),
-                      Text("45")
-                    ]
+                  InkWell(
+                    onTap: (){},
+                    child: Column(
+                      children: [
+                    Text("Following", style: Theme.of(context).textTheme.bodyLarge),
+                        Text("45")
+                      ]
+                    ),
                   ),
                 ],
               )
