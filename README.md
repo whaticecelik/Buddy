@@ -1,5 +1,5 @@
 # Buddy
-Istinye University Student Projects.
+![Buddy](assets/icons/icon.png)
 
 ## Proje Hakkında
 Buddy, dil öğrenmeyi eğlenceli ve etkili hale getiren, dünya çapında farklı kültürlerden insanlarla tanışmanıza olanak sağlayan bir sosyal platformdur.
