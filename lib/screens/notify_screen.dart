@@ -16,56 +16,18 @@ class NotifyScreen extends StatelessWidget{
       appBar: AppBar(
           title: Text("Buddy",style: Theme.of(context).textTheme.headlineSmall),
         centerTitle: true,
+        leading: IconButton(icon: Icon(Icons.more_horiz), onPressed:() => _showMore(context),),
         actions: [
           IconButton(
             icon: Icon(Icons.filter_list),
-            onPressed: () {},
+            onPressed:() => _showFilterDialog(context),
           ),
         ],
       ),
 
 
 
-      
-        drawer: Drawer(
-          child: Column(
-            children: [
-              Container(
-                height: 50,
-              ),
-              
-              ListTile(
-                leading: Icon(CupertinoIcons.person),
-                title: Text('Profile'),
-                onTap: () => context.push("/profile"),
-              ),
-              ListTile(
-                leading: Icon(Icons.search),
-                title: Text('Search'),
-                onTap: (){},
-              ),
-              ListTile(
-                leading: Icon(Icons.access_time),
-                title: const Text("Recents"),
-                onTap: (){
-              },
-              ),
-              ListTile(
-                leading: Icon(CupertinoIcons.settings),
-                title: Text('Settings'),
-                onTap: () => context.push("/settings"),
-              ),
-              Spacer(),
-              Divider(),
-              ListTile(
-                leading: Icon(Icons.logout),
-                title: Text('Log out'),
-                onTap: () {},
-              ),
-            ],
-          ),
-        ),
-        
+  
 
         body: ListView(
           children: [
@@ -252,4 +214,89 @@ class NotifyScreen extends StatelessWidget{
       );
     
   }
+}
+
+
+void _showFilterDialog(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (context) => AlertDialog(
+      title: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Text('Filter', style: Theme.of(context).textTheme.titleLarge),
+          IconButton(
+            icon: Icon(Icons.close),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ],
+      ),
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SizedBox(height: 8),
+          Wrap(
+            spacing: 12,
+            children: [
+              FilterChip(
+                label: Text('All'),
+                selected: true,
+                onSelected: (_) {},
+              ),
+              FilterChip(
+                label: Text('Unread'),
+                selected: false,
+                onSelected: (_) {},
+              ),
+            ],
+          ),
+          SizedBox(height: 8),
+        ],
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.pop(context),
+          child: Text('Temizle'),
+        ),
+        FilledButton(
+          onPressed: () => Navigator.pop(context),
+          child: Text('Apply'),
+        ),
+      ],
+    ),
+  );
+}
+
+
+
+  void _showMore(BuildContext context) {
+
+  showDialog(
+    context: context,
+    builder: (context) => AlertDialog(
+      title: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Text('Select', style: Theme.of(context).textTheme.titleLarge),
+          IconButton(
+            icon: Icon(Icons.close),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ],
+      ),
+      actions: [
+        ListTile(
+          leading: Icon(Icons.check),
+          title: Text('Mark all as read'),
+          onTap: () {},
+        ),
+        ListTile(
+          leading: Icon(Icons.delete),
+          title: Text('Delete all'),
+          onTap: () {},
+        ),
+      ],
+    ),
+  );
 }
