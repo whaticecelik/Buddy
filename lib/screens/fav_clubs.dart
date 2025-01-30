@@ -16,7 +16,7 @@ class favClubsScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Buddy",style: Theme.of(context).textTheme.headlineSmall),
+        title: Text("My Clubs",),
         centerTitle: true,
         leading: IconButton(
           icon:Icon(Icons.arrow_back),

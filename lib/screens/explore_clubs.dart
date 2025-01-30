@@ -143,6 +143,42 @@ class ExploreScreen extends StatelessWidget{
                       subtitle: "912 members",
                       onTap:  () => context.push("/club"),
                     ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a4.jpg"),
+                      title: "Mindfull",
+                      subtitle: "3721 members",
+                      onTap:  () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a5.jpg"),
+                      title: "Angry Russians",
+                      subtitle: "598 members",
+                      onTap:  () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a3.jpg"),
+                      title: "Anime Lovers",
+                      subtitle: "1423 members",
+                      onTap: () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a2.jpg"),
+                      title: "Welcome",
+                      subtitle: "111 members",
+                      onTap:  () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a3.jpg"),
+                      title: "Club1",
+                      subtitle: "2134 members",
+                      onTap: () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a2.jpg"),
+                      title: "Club2",
+                      subtitle: "344 members",
+                      onTap:  () => context.push("/club"),
+                    ),
                     Center(
                       child: ElevatedButton(
                         onPressed: (){},
