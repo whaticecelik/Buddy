@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 const colors = {
   "primary" : Color.fromARGB(255, 255, 255, 255),
-  "onPrimary" :  Color.fromARGB(255, 255, 135, 6),
+  "onPrimary" :  Color.fromARGB(255, 247, 150, 47),
   "secondary" :  Color.fromARGB(255, 138, 138, 166), 
   "onSecondary" :  Color.fromARGB(255, 151, 151, 151), // alt nav iconları, albaşlıklar ve sola dayalı iconların rengi
   "surface" :  Colors.white,

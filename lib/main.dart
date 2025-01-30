@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<ThemeProvider>(builder: (context, themeProvider, child) {
       return MaterialApp.router(
-        title: 'Flutter App',
+        title: 'Buddy',
         themeMode: themeProvider.isDark ? ThemeMode.dark : ThemeMode.light,
         theme: lightTheme,
         darkTheme: darkTheme,

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/core/constants.dart';
 import 'package:flutter_app/core/themes.dart';
 import 'package:flutter_app/widgets/action_cards.dart';
 import 'package:flutter_app/widgets/bottom_menu.dart';
@@ -75,7 +74,6 @@ class HomeScreen extends StatelessWidget{
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                // filledButtonu Q-Flutter profile_screen den aldım
           FilledButton.icon(
             onPressed: () => context.go("/home"),
             icon: Icon(Icons.star),

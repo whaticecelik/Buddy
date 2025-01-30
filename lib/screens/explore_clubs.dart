@@ -119,7 +119,50 @@ class ExploreScreen extends StatelessWidget{
                       subtitle: "598 members",
                       onTap:  () => context.push("/club"),
                     ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a3.jpg"),
+                      title: "Arrakis",
+                      subtitle: "1423 members",
+                      onTap: () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a2.jpg"),
+                      title: "Only English",
+                      subtitle: "1011 members",
+                      onTap:  () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a3.jpg"),
+                      title: "Astroworld",
+                      subtitle: "203 members",
+                      onTap: () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a2.jpg"),
+                      title: "English Time",
+                      subtitle: "912 members",
+                      onTap:  () => context.push("/club"),
+                    ),
+                    SuggestedActionCard(
+                      image: Image.asset("assets/images/a3.jpg"),
+                      title: "Learn Spanish",
+                      subtitle: "988 members",
+                      onTap: () => context.push("/club"),
+                    ),
+                    Center(
+                      child: ElevatedButton(
+                        onPressed: (){},
+                        child: Icon(Icons.add, color: Theme.of(context).colorScheme.onSurface, size: 25),
+                        style: ElevatedButton.styleFrom(
+                          elevation: 3,
+                          shape: CircleBorder(),
+                          padding: EdgeInsets.all(20),
+                          backgroundColor: Theme.of(context).colorScheme.onPrimary,
+
+                        ),),
+                    ),
                   ],
+                  
                 ),
               ),
             ),

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/core/constants.dart';
 import 'package:flutter_app/core/themes.dart';
 import 'package:flutter_app/widgets/bottom_menu.dart';
 import 'package:go_router/go_router.dart';
