@@ -31,176 +31,194 @@ class NotifyScreen extends StatelessWidget{
 
         body: ListView(
           children: [
-            Container(
-              height: 100,
-              width: double.infinity, 
-              child: Row(
-                children: [
-                  Container(
-                  margin: EdgeInsets.all(20),
-                  width: 50, 
-                  height:50, 
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle, 
-                    image: DecorationImage(
-                      image: AssetImage('assets/images/cat2.jpg'),
-                      fit: BoxFit.cover, 
+            InkWell(
+              onTap: (){},
+              child: SizedBox(
+                height: 100,
+                width: double.infinity, 
+                child: Row(
+                  children: [
+                    Container(
+                    margin: EdgeInsets.all(20),
+                    width: 50, 
+                    height:50, 
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle, 
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/cat2.jpg'),
+                        fit: BoxFit.cover, 
+                      ),
                     ),
-                  ),
-                  
-                  ),
-                  
-                  Expanded(
-                    child: Padding(
-                      padding: EdgeInsets.only(right: 20),
-                      child: Text("Ada accepted your following request."),
+                    
                     ),
-                  ),
-                ],
+                    
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 20),
+                        child: Text("Ada accepted your following request."),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             Divider(color: Theme.of(context).colorScheme.onSecondary),
-            Container(
-              height: 100,
-              width: double.infinity, 
-              child: Row(
-                children: [
-                  Container(
-                  margin: EdgeInsets.all(20),
-                  width: 50, 
-                  height:50, 
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle, 
-                    color: Theme.of(context).colorScheme.secondary,
-                  ),
-                  child: Icon(
-                    Icons.person
-                  ),
-                  ),
-                  
-                  Expanded(
-                    child: Padding(
-                      padding: EdgeInsets.only(right: 20),
-                      child: Text("Lilly started following you."),
+            InkWell(
+              onTap: (){},
+              child: SizedBox(
+                height: 100,
+                width: double.infinity, 
+                child: Row(
+                  children: [
+                    Container(
+                    margin: EdgeInsets.all(20),
+                    width: 50, 
+                    height:50, 
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle, 
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
-                  ),
-                ],
+                    child: Icon(
+                      Icons.person
+                    ),
+                    ),
+                    
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 20),
+                        child: Text("Lilly started following you."),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             Divider(color: Theme.of(context).colorScheme.onSecondary),  
-            Container(
-              height: 100,
-              width: double.infinity, 
-              child: Row(
-                children: [
-                  Container(
-                  margin: EdgeInsets.all(20),
-                  width: 50, 
-                  height:50, 
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle, 
-                    image: DecorationImage(
-                      image: AssetImage('assets/images/a3.jpg'),
-                      fit: BoxFit.cover, 
+            InkWell(
+              onTap: (){},
+              child: Container(
+                height: 100,
+                width: double.infinity, 
+                child: Row(
+                  children: [
+                    Container(
+                    margin: EdgeInsets.all(20),
+                    width: 50, 
+                    height:50, 
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle, 
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/a3.jpg'),
+                        fit: BoxFit.cover, 
+                      ),
                     ),
-                  ),
-                  
-                  ),
-                 Divider(color: Theme.of(context).colorScheme.onSecondary),
-                  Expanded(
-                    child: Padding(
-                      padding: EdgeInsets.only(right: 20),
-                      child: Text("Your request to join Lille France got declined."),
+                    
                     ),
-                  ),
-                ],
+                   Divider(color: Theme.of(context).colorScheme.onSecondary),
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 20),
+                        child: Text("Your request to join Lille France got declined."),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
 
             Divider(color: Theme.of(context).colorScheme.onSecondary),
-            Container(
-              height: 100,
-              width: double.infinity, 
-              child: Row(
-                children: [
-                  Container(
-                  margin: EdgeInsets.all(20),
-                  width: 50, 
-                  height:50, 
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle, 
-                    image: DecorationImage(
-                      image: AssetImage('assets/images/a1.jpg'),
-                      fit: BoxFit.cover, 
+            InkWell(
+              onTap: (){},
+              child: SizedBox(
+                height: 100,
+                width: double.infinity, 
+                child: Row(
+                  children: [
+                    Container(
+                    margin: EdgeInsets.all(20),
+                    width: 50, 
+                    height:50, 
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle, 
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/a1.jpg'),
+                        fit: BoxFit.cover, 
+                      ),
                     ),
-                  ),
-                  
-                  ),
-                 Divider(color: Theme.of(context).colorScheme.onSecondary),
-                  Expanded(
-                    child: Padding(
-                      padding: EdgeInsets.only(right: 20),
-                      child: Text("Your request has been accepted into Friendly Zone. Say hi to your new clubmates!"),
+                    
                     ),
-                  ),
-                ],
+                   Divider(color: Theme.of(context).colorScheme.onSecondary),
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 20),
+                        child: Text("Your request has been accepted into Friendly Zone. Say hi to your new clubmates!"),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             Divider(color: Theme.of(context).colorScheme.onSecondary),
-            Container(
-              height: 100,
-              width: double.infinity, 
-              child: Row(
-                children: [
-                  Container(
-                  margin: EdgeInsets.all(20),
-                  width: 50, 
-                  height:50, 
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle, 
-                    image: DecorationImage(
-                      image: AssetImage('assets/images/a5.jpg'),
-                      fit: BoxFit.cover, 
+            InkWell(
+              onTap: (){},
+              child: SizedBox(
+                height: 100,
+                width: double.infinity, 
+                child: Row(
+                  children: [
+                    Container(
+                    margin: EdgeInsets.all(20),
+                    width: 50, 
+                    height:50, 
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle, 
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/a5.jpg'),
+                        fit: BoxFit.cover, 
+                      ),
                     ),
-                  ),
-                  
-                  ),
-                  
-                  Expanded(
-                    child: Padding(
-                      padding: EdgeInsets.only(right: 20),
-                      child: Text("You have been kicked out of Time to learn Russian!"),
+                    
                     ),
-                  ),
-                ],
+                    
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 20),
+                        child: Text("You have been kicked out of Time to learn Russian!"),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             Divider(color: Theme.of(context).colorScheme.onSecondary),
-            Container(
-              height: 100,
-              width: double.infinity, 
-              child: Row(
-                children: [
-                  Container(
-                  margin: EdgeInsets.all(20),
-                  width: 50, 
-                  height:50, 
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle, 
-                    color: Theme.of(context).colorScheme.secondary,
-                  ),
-                  child: Icon(
-                    Icons.person
-                  ),
-                  ),
-                  
-                  Expanded(
-                    child: Padding(
-                      padding: EdgeInsets.only(right: 20),
-                      child: Text("john started following you."),
+            InkWell(
+              onTap: (){},
+              child: SizedBox(
+                height: 100,
+                width: double.infinity, 
+                child: Row(
+                  children: [
+                    Container(
+                    margin: EdgeInsets.all(20),
+                    width: 50, 
+                    height:50, 
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle, 
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
-                  ),
-                ],
+                    child: Icon(
+                      Icons.person
+                    ),
+                    ),
+                    
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 20),
+                        child: Text("john started following you."),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
            
