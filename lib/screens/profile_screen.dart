@@ -123,7 +123,7 @@ class ProfileScreen extends StatelessWidget{
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   InkWell(
-                    onTap: (){},
+                    onTap: ()=>context.go("/favClubs"),
                     child: Column(
                       children: [
                         Text("Fav Clubs", style: Theme.of(context).textTheme.bodyLarge),
@@ -132,7 +132,7 @@ class ProfileScreen extends StatelessWidget{
                     ),
                   ),
                   InkWell(
-                    onTap: (){},
+                    onTap: ()=>context.go("/follow"),
                     child: Column(
                       children: [
                     Text("Followers", style: Theme.of(context).textTheme.bodyLarge),
@@ -141,7 +141,7 @@ class ProfileScreen extends StatelessWidget{
                     ),
                   ),
                   InkWell(
-                    onTap: (){},
+                    onTap: ()=>context.go("/follow"),
                     child: Column(
                       children: [
                     Text("Following", style: Theme.of(context).textTheme.bodyLarge),

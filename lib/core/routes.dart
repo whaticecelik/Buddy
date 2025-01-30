@@ -1,6 +1,8 @@
 import 'package:flutter_app/screens/call_screen.dart';
 import 'package:flutter_app/screens/club_screen.dart';
 import 'package:flutter_app/screens/explore_clubs.dart';
+import 'package:flutter_app/screens/fav_clubs.dart';
+import 'package:flutter_app/screens/follow_screen.dart';
 import 'package:flutter_app/screens/home_screen.dart';
 import 'package:flutter_app/screens/loading_screen.dart';
 import 'package:flutter_app/screens/login_screen.dart';
@@ -58,6 +60,14 @@ final router = GoRouter(
     GoRoute(
       path: '/register' ,
       builder: (context, state) => const RegisterScreen(),
+    ),
+    GoRoute(
+      path: '/favClubs' ,
+      builder: (context, state) => const favClubsScreen(),
+    ),
+    GoRoute(
+      path: '/follow' ,
+      builder: (context, state) => const FollowScreen(),
     ),
   ],
 );
