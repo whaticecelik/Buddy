@@ -61,7 +61,7 @@ class CallScreen extends StatelessWidget{
               ListTile(
                 leading: Icon(Icons.logout),
                 title: Text('Log out'),
-                onTap: () {},
+                onTap: ()=>context.go("/login"),
               ),
             ],
           ),

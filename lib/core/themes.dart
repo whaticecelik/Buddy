@@ -27,23 +27,21 @@ final lightTheme = ThemeData(
     onSurface: colors["onSurface"]!,
   ),
   textTheme: TextTheme(
-    bodySmall: GoogleFonts.roboto(
-        // fontSize: 32,
-        ),
+    bodySmall: GoogleFonts.lato(),
     bodyMedium: GoogleFonts.roboto(),
     bodyLarge: GoogleFonts.lato(
     ),// member sayısı
-    labelSmall: GoogleFonts.roboto(),
+    labelSmall: GoogleFonts.lato(),
     labelMedium: GoogleFonts.lato(),
-    labelLarge: GoogleFonts.roboto(),
-    titleSmall: GoogleFonts.roboto(),
+    labelLarge: GoogleFonts.lato(),
+    titleSmall: GoogleFonts.lato(),
     titleMedium: GoogleFonts.lato(), 
     titleLarge: GoogleFonts.lato(),  // clubların title ı
     headlineSmall: GoogleFonts.novaMono(), // appbar buddy text
     headlineMedium: GoogleFonts.lato(), // club member sayısı
-    headlineLarge: GoogleFonts.aBeeZee(),
+    headlineLarge: GoogleFonts.lato(),
     displaySmall: GoogleFonts.novaMono(),
-    displayMedium: GoogleFonts.abrilFatface(),
+    displayMedium: GoogleFonts.lato(),
     displayLarge: GoogleFonts.novaMono( // loading screen title's 
       fontSize: 80
     ), 
@@ -64,23 +62,21 @@ final darkTheme = ThemeData(
     onSurface: darkColors["onSurface"]!,
   ),
    textTheme: TextTheme(
-    bodySmall: GoogleFonts.roboto(
-        // fontSize: 32,
-        ),
+    bodySmall: GoogleFonts.lato(),
     bodyMedium: GoogleFonts.roboto(),
     bodyLarge: GoogleFonts.lato(
     ),// member sayısı
-    labelSmall: GoogleFonts.roboto(),
+    labelSmall: GoogleFonts.lato(),
     labelMedium: GoogleFonts.lato(),
-    labelLarge: GoogleFonts.roboto(),
-    titleSmall: GoogleFonts.roboto(),
-    titleMedium: GoogleFonts.lato(),
-    titleLarge: GoogleFonts.lato(),  // clubların title ı, user name i
+    labelLarge: GoogleFonts.lato(),
+    titleSmall: GoogleFonts.lato(),
+    titleMedium: GoogleFonts.lato(), 
+    titleLarge: GoogleFonts.lato(),  // clubların title ı
     headlineSmall: GoogleFonts.novaMono(), // appbar buddy text
-    headlineMedium: GoogleFonts.lato(), // profildeki takipçi vs 
-    headlineLarge: GoogleFonts.aBeeZee(),
-    displaySmall: GoogleFonts.lato(),
-    displayMedium: GoogleFonts.abrilFatface(),
+    headlineMedium: GoogleFonts.lato(), // club member sayısı
+    headlineLarge: GoogleFonts.lato(),
+    displaySmall: GoogleFonts.novaMono(),
+    displayMedium: GoogleFonts.lato(),
     displayLarge: GoogleFonts.novaMono( // loading screen title's 
       fontSize: 80
     ),

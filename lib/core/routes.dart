@@ -3,9 +3,11 @@ import 'package:flutter_app/screens/club_screen.dart';
 import 'package:flutter_app/screens/explore_clubs.dart';
 import 'package:flutter_app/screens/home_screen.dart';
 import 'package:flutter_app/screens/loading_screen.dart';
+import 'package:flutter_app/screens/login_screen.dart';
 import 'package:flutter_app/screens/msg_screen.dart';
 import 'package:flutter_app/screens/notify_screen.dart';
 import 'package:flutter_app/screens/profile_screen.dart';
+import 'package:flutter_app/screens/register_screen.dart';
 import 'package:flutter_app/screens/settings_screen.dart';
 import 'package:go_router/go_router.dart';
 
@@ -48,6 +50,14 @@ final router = GoRouter(
     GoRoute(
       path: '/club' ,
       builder: (context, state) => const ClubScreen(),
+    ),
+    GoRoute(
+      path: '/login' ,
+      builder: (context, state) => const LoginScreen(),
+    ),
+    GoRoute(
+      path: '/register' ,
+      builder: (context, state) => const RegisterScreen(),
     ),
   ],
 );

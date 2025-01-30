@@ -17,17 +17,11 @@ class LoadingScreen extends StatelessWidget {
 
         
         children: [
-          // Logo ve yükleme  bölümü
           Expanded(
-            //width: double.infinity,
               child: Column(
                 children: [
-                  // Logo bölümü
                 SizedBox(height: 100,),
-               //CircularProgressIndicator(),
                Text("Buddy", style: Theme.of(context).textTheme.displayLarge,),
-
-
                 InkWell(
                   onTap: () => context.go("/home"),
                   child: SizedBox(
