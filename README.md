@@ -100,8 +100,12 @@ lib/
 └── yardımcılar/ # Yardımcı fonksiyonlar
 
 ```
-## Proje Videosu (youtube)
+## Proje Videosu 
+(youtube)
 https://youtube.com/shorts/NDWLQPSkdao?feature=share
+
+(github)
+https://github.com/user-attachments/assets/6af78ddd-8ff9-4976-8a13-c1b108b53f70
 
 ## Ekran Görüntüleri
 ![Image](https://github.com/user-attachments/assets/bb7127e0-ba82-481d-8306-2c8b449e00bc)
